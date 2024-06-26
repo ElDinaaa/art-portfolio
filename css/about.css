@@ -1,0 +1,462 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 4px 0;
+}
+
+.close-menu {
+    display: none;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 1100;
+}
+
+#nav-links {
+    display: flex;
+    list-style: none;
+}
+
+#nav-links li {
+    margin: 0 15px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .branding h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #000;
+}
+
+header .branding h1 a {
+    color: #000;
+    text-decoration: none;
+}
+
+header .branding h1 a:hover {
+    color: #555;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+header nav ul li a.active {
+    color: #555;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #555;
+}
+
+main {
+    padding-top: 20px;
+}
+
+.biography, .awards, .exhibitions {
+    margin-bottom: 20px;
+    padding-top: 40px; 
+    margin-right: 200px;
+    margin-left: 200px;
+    }
+
+.biography h2, .awards h2, .exhibitions h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    
+}
+
+.biography .content { 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 0px ;
+    margin-left: 0px;
+    border: 0;
+    max-width: 870px;
+}
+
+.biography .text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.biography .photo {
+    flex: 1;
+    margin-left: 200px;
+}
+
+.biography .photo img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.biography .photo img:hover {
+    transform: scale(1.05);
+}
+
+.awards p, .exhibitions p {
+    margin: 0px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1100;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.modal-content-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 50%;
+    margin: auto;
+    position: relative;
+}
+
+.modal-content {
+    display: block;
+    width: 40%;
+    max-height: 70vh;
+    object-fit: contain;
+    margin: auto;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #000000;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #8a8a8a;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.share-container {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    position: absolute;
+    right: 0;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.share-button {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.share-menu {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-84%);
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 200px;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.share-arrow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #f0f0f0;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.share-arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #f0f0f0;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.share-menu.active {
+    display: block;
+}
+
+.share-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.share-menu ul li {
+    margin: 0;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+}
+
+.share-menu ul li a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 0.9em;
+    width: 100%;
+    padding: 8px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.share-menu ul li a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.share-menu ul li img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.share-menu ul li:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+
+.social-links {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    margin-right: 20px;
+}
+
+.social-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.social-links ul li {
+    margin: 0 5px;
+}
+
+.social-links ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.social-links ul li a:hover {
+    color :#555;
+}
+
+.social-links ul li img {
+    width: 24px;
+    height: 24px;
+}    
+
+@media (max-width: 768px) {
+
+    body.no-scroll {
+        overflow: hidden !important;
+    }
+
+    .hamburger {
+        display: flex;
+        position: relative;
+        z-index: 1100;
+    }
+
+    #nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+
+    #nav-links.active {
+        display: flex;
+    }
+
+    #nav-links li {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav {
+        position: relative;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .biography, .awards, .exhibitions {
+        margin: 0 20px;
+        padding-top: 20px;
+    }
+
+    .biography .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .biography .text {
+        padding-right: 0px;
+        margin-bottom: 20px;
+        text-align: left;
+        width: 100%;
+        box-sizing: border-box;
+    }
+   
+    .biography .photo {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .biography .photo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .modal-content {
+        display: block;
+        width: 100%;
+        max-height: 70vh;
+        object-fit: contain;
+        margin-top: 75px; 
+    }
+}    
