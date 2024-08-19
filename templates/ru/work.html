@@ -1,130 +1,105 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"> 
+<html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
 
-    <head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Work - Mubarik Elmurzaeva</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="/css/ru/work.css">
+    <link rel="icon" type="image/x-icon" href="/path/to/your/favicon.ico">
+    <link rel="canonical" href="http://mubarikelmurzaeva.com">
 
-        <title>Work - Mubarik Elmurzaeva</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
-        <link rel="stylesheet" href="../../css/en/work.css">
-        <link rel="icon" type="image/x-icon" href="path/to/your/favicon.ico"> <!-- Ваш собственный фавикон -->
-        <link rel="canonical" href="http://mubarikelmurzaeva.com"> 
+    <meta property="og:site_name" content="Mubarik Elmurzaeva">
+    <meta property="og:title" content="Work - Mubarik Elmurzaeva">
+    <meta property="og:url" content="http://mubarikelmurzaeva.com/work">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Work - Mubarik Elmurzaeva">
+    <meta itemprop="url" content="http://mubarikelmurzaeva.com/work">
+    <meta name="twitter:title" content="Work - Mubarik Elmurzaeva">
+    <meta name="twitter:url" content="http://mubarikelmurzaeva.com/work">
+    <meta name="twitter:card" content="summary">
+    <meta name="description" content="Изучите произведения искусства Мубарик Элмурзаевой. Просматривайте подробные описания, размеры и цены.">
 
-        <meta property="og:site_name" content="Mubarik Elmurzaeva">
-        <meta property="og:title" content="Work - Mubarik Elmurzaeva">
-        <meta property="og:url" content="http://mubarikelmurzaeva.com/work">
-        <meta property="og:type" content="website">
-        <meta itemprop="name" content="Work - Mubarik Elmurzaeva">
-        <meta itemprop="url" content="http://mubarikelmurzaeva.com/work">
-        <meta name="twitter:title" content="Work - Mubarik Elmurzaeva">
-        <meta name="twitter:url" content="http://mubarikelmurzaeva.com/work">
-        <meta name="twitter:card" content="summary">
-        <meta name="description" content="Explore the artwork of Mubarik Elmurzaeva. View detailed descriptions, sizes, and prices.">
-    </head>
+</head>
 
-    <body>
+<body>
+<div class="page-container">
+    <special-header-ru></special-header-ru>
 
-        <header>
-            <div class="container">
+    <div class="vector-container">
+        <svg class="vector-svg" viewBox="0 0 1400 572" xmlns="http://www.w3.org/2000/svg">
 
-                <div class="branding">
-                    <h1><a href="index.html">MUBARIK ELMURZAEVA</a></h1>
-                </div>
+            <defs>
+                <mask id="mask1">
+                    <path d="M196,258 V572 H20 V258 A 1 1, 0, 0 1, 196 258" fill="white"/>
+                    <path d="M392,218 V572 H216 V218 A 1 1, 0, 0 1, 392 218" fill="white" />
+                    <path d="M984,287 V572 H412 V287 A 1 1, 0, 0 1, 984 287" fill="white" />
+                    <path d="M1180,218 V572 H1004 V218 A 1 1, 0, 0 1, 1180 218" fill="white" />
+                    <path d="M1376,258 V572 H1200 V258 A 1 1, 0, 0 1, 1376 258" fill="white" />
+                </mask>
+            </defs>
 
-                <nav>
-                    <div class="hamburger" id="hamburger">
-                        <div class="line"></div>
-                        <div class="line"></div>
-                        <div class="line"></div>
-                    </div>
-                    <ul id="nav-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="work.html" class="active">Work</a></li>
-                        <li><a href="about.html">About me</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <div class="hamburger close-menu" id="close-menu">
-                            <div class="line"></div>
-                            <div class="line"></div>
-                            <div class="line"></div>
-                        </div>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+            <image href="/images/tree.png" width="1400" height="572" mask="url(#mask1)" />
+        </svg>
 
-        <main>
-            <div class="filters">
-                <label for="categoryFilter">Filter by category:</label>
-                <select id="categoryFilter">
-                    <option value="all">All</option>
-                    <option value="availableArt">Available Art</option>
-                    <option value="oil">Oil paintings</option>
-                    <option value="watercolor">Watercolor paintings</option>
-                </select>
-            </div>
-            <div class="artwork">
-                <div class="artwork-item" data-category="availableArt oil" data-price="500">
-                    <img src="../../images/flow1.jpg" alt="Artwork 1">
-                    <div class="artwork-details">
-                        <h2>Title of Artwork 1</h2>
-                        <p>Description of Artwork 1. This is a detailed description of the artwork. Pfntv bdfy cntgfysx crfpfk xnj 'nj ,skf hjrjdfz jib,rf если долго жолго жолго жолго жолго по </p>
-                        <p>Size: 50x70 cm</p>
-                        <p>Price: $500</p>
-                    </div>
-                </div>
-
-                <div class="artwork-item" data-category="availableArt" data-price="600">
-                    <img src="../../images/flow2.jpg" alt="Artwork 2">
-                    <div class="artwork-details">
-                        <h2>Title of Artwork 2</h2>
-                        <p>Description of Artwork 2. This is a detailed description of the artwork.</p>
-                        <p>Size: 80x90 cm</p>
-                        <p>Price: $600</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div id="no-results-message" class="hidden">No artworks found for the selected category.</div>
-        </main>
-
-        <div class="modal" id="modal">
-            <span class="close" id="closeModal">&times;</span>
-            <img class="modal-content" id="modalImage">
-            <div id="caption"></div>
+        <div class="title-container">
+            <span class="title-p">П</span>
+            <h1 class="title">ортфолио</h1>
         </div>
 
-        <footer>
-            <div class="footer-container">
-                <div class="share-container">
-                    <p id="share-text" class="share-button">Share</p>
-                    <div class="share-menu">
-                        <div class="share-arrow"></div> 
-                        <ul>
-                            <li><a href="#" onclick="shareToFacebook()"><img src="../../images/icon-facebook.png" alt="Facebook">Share to Facebook</a></li>
-                            <li><a href="#" onclick="shareToInstagram()"><img src="../../images/icon-instagram.png" alt="Instagram">Share to Instagram</a></li>
-                            <li><a href="#" onclick="shareToTwitter()"><img src="../../images/icon-twitterx.png" alt="Twitter">Share to Twitter</a></li>
-                            <li><a href="#" onclick="shareToPinterest()"><img src="../../images/icon-pinterest.png" alt="Pinterest">Share to Pinterest</a></li>
-                        </ul>
-                    </div>
-                    <div class="social-links">
-                        <ul>
-                            <li><a href="https://www.facebook.com" target="_blank"><img src="../../images/icon-facebook.png" alt="Facebook"></a></li> <!-- Добавить ссылку на фейсбук -->
-                            <li><a href="https://www.instagram.com" target="_blank"><img src="../../images/icon-instagram.png" alt="Instagram"></a></li> <!-- Добавить ссылку на инсту-->
-                            <li><a href="https://www.whatsapp.com" target="_blank"><img src="../../images/icon-whatsapp.png" alt="WhatsApp"></a></li> <!-- Добавить ссылку на ватс -->
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>
-        </footer>
+        <div class="subtitle-container">
+            <p class="subtitle">Узнайте больше о моих самых выдающихся работах</p>
+        </div>
+    </div>
 
-        <script src="../../js/work.js"></script>
-        <script src="../../js/script.js"></script>
+    <div class="gallery-container">
+        <ul id="gallery" class="gallery">
+            <li class="gallery-item item-1">
+                <img src="/images/image1.jpg" alt="Image 1" data-description="Описание картины 1" data-second-description="Второе описание картины 1" data-title="«Роза»" data-material="Бумага/Пастель">
+                <h3 class="image-title">«Роза»</h3>
+                <p class="image-material">Бумага/Пастель</p>
+            </li>
+            <li class="gallery-item item-2">
+                <img src="/images/image2.jpg" alt="Image 2" data-description="Описание картины 2" data-second-description="Второе описание картины 2" data-title="«Сухоцвет»" data-material="Холст/Масло, паста">
+                <h3 class="image-title">«Сухоцвет»</h3>
+                <p class="image-material">Холст/Масло, паста</p>
+            </li>
+            <li class="gallery-item item-3">
+                <img src="/images/image3.jpg" alt="Image 3" data-description="Описание картины 3" data-second-description="Второе описание картины 3" data-title="«Доктор Ахмад»" data-material="Бумага/Акварель">
+                <h3 class="image-title">«Доктор Ахмад»</h3>
+                <p class="image-material">Бумага/Акварель</p>
+            </li>
+            <li class="gallery-item item-4">
+                <img src="/images/image4.jpg" alt="Image 4" data-description="Описание картины 4" data-second-description="Второе описание картины 4" data-title="«Сухоцветы»" data-material="Холст/Масло">
+                <h3 class="image-title">«Сухоцветы»</h3>
+                <p class="image-material">Холст/Масло</p>
+            </li>
+            <li class="gallery-item item-5">
+                <img src="/images/image5.jpg" alt="Image 5" data-description="Описание картины 5" data-second-description="Второе описание картины 5" data-title="«Название картины5»" data-material="Watercolor5">
+                <h3 class="image-title">«Название картины5»</h3>
+                <p class="image-material">чем написана5</p>
+            </li>
+            <li class="gallery-item item-6">
+                <img src="/images/image6.jpg" alt="Image 6" data-description="Описание картины 6" data-second-description="Второе описание картины 6" data-title="«Роза»" data-material="Бумага/Масло">
+                <h3 class="image-title">«Роза»</h3>
+                <p class="image-material">Бумага/Масло</p>
+            </li>
+        </ul>
+        <button id="view-more-btn" class="load-more-btn">
+            <img src="/images/Star3.svg" alt="Star" class="icon-left">
+            Смотреть ещё
+            <img src="/images/Star3.svg" alt="Star" class="icon-right">
+        </button>
+    </div>
+    <special-footer></special-footer>
+</div>
 
-    </body>
+<script src="/js/headerFooter.js" defer></script>
+<script src="/js/language-switcher.js" defer></script>
+<script src="/js/work.js" defer></script>
+</body>
 </html>

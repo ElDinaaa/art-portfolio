@@ -17,7 +17,7 @@ body {
     font-family: 'Hauora', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1E2629;
+    background-color: #1B1818;
     color: #FFF9F9;
 }
 
@@ -26,7 +26,7 @@ body {
     width: 1440px;
     height: 800px;
     margin: 0 auto;
-    background-color: #1E2629;
+    background-color: #1B1818;
     position: relative;
 }
 
@@ -38,11 +38,11 @@ body {
     width: 1350;
     height: 37px;
     padding: 20px 20px;
-    background-color: #1E2629;
+    background-color:  #1B1818;
     position: relative;
     top: 20;
     left: 20;
-    box-sizing: border-box; /* Включаем padding в размеры блока */
+    box-sizing: border-box;
 }
 
 .logo {
@@ -122,7 +122,7 @@ body {
     color: white;
     width: 100%;
     height: 100%;
-    background-color: #1E2629;
+    background-color:  #1B1818;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +130,7 @@ body {
 
 .cover-photo {
     position: absolute;
-    top: 10px; /*?? */
+    top: 10px;
     left: 226px;
     width: 872px;
     height: 853px;
@@ -193,9 +193,10 @@ body {
 /* Стили для кнопки Go to Portfolio */
 .go-to-portfolio {
     position: absolute;
-    top: 632px;
+    top: 655px;
     left: 1075px;
-    width: 247px;
+    /*width: 247px;*/
+    width: 267px;
     height: 20px;
     font-size: 20px;
     font-weight: 400;
@@ -208,9 +209,10 @@ body {
 
 .go-to-portfolio-line {
     position: absolute;
-    top: 656px;
+    top: 678px;
     left: 1075px;
-    width: 244px;
+    /*width: 244px;*/
+    width: 267px;
     height: 1px;
     background: #FFF9F9;
 }

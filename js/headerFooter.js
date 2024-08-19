@@ -17,6 +17,16 @@ class SpecialHeader extends HTMLElement {
             </div>
         </div>
         <div class="header-line"></div>`;
+        this.highlightActiveLink();
+    }
+
+    highlightActiveLink() {
+        const links = this.querySelectorAll('.navigation a');
+        links.forEach(link => {
+            if (link.href === window.location.href) {
+                link.classList.add('active');
+            }
+        });
     }
 }
 
@@ -41,7 +51,39 @@ class SpecialHeaderRU extends HTMLElement {
             </div>
         </div>
         <div class="header-line"></div>`;
+        this.highlightActiveLink();
+    }
+
+    highlightActiveLink() {
+        const links = this.querySelectorAll('.navigation a');
+        links.forEach(link => {
+            if (link.href === window.location.href) {
+                link.classList.add('active');
+            }
+        });
     }
 }
 
 customElements.define('special-header-ru', SpecialHeaderRU);
+
+class SpecialFooter extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        <div class="footer-container">
+            <div class="footer-line"></div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/yourpage" target="_blank">
+                    <img src="/images/facebook.svg" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/yourpage" target="_blank">
+                    <img src="/images/instagram.svg" alt="Instagram">
+                </a>
+                <a href="https://www.whatsapp.com/yourpage" target="_blank">
+                    <img src="/images/whatsapp.svg" alt="Twitter">
+                </a>
+            </div>
+        </div>`;
+    }
+}
+
+customElements.define('special-footer', SpecialFooter);

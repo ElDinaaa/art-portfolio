@@ -1,0 +1,121 @@
+[
+  {
+    "src": "image7.jpg",
+    "title": "Painting Title 7",
+    "material": "Watercolor",
+    "description": "Description of painting 7",
+    "secondDescription": "Second description of painting 7"
+  },
+  {
+    "src": "image8.jpg",
+    "title": "Painting Title 8",
+    "material": "Oil",
+    "description": "Description of painting 8",
+    "secondDescription": "Second description of painting 8"
+  },
+  {
+    "src": "image9.jpg",
+    "title": "Painting Title 9",
+    "material": "Medium 9",
+    "description": "Description of painting 9",
+    "secondDescription": "Second description of painting 9"
+  },
+  {
+    "src": "image10.jpg",
+    "title": "Painting Title 10",
+    "material": "Medium 10",
+    "description": "Description of painting 10",
+    "secondDescription": "Second description of painting 10"
+  },
+  {
+    "src": "image11.jpg",
+    "title": "Painting Title 11",
+    "material": "Medium 11",
+    "description": "Description of painting 11",
+    "secondDescription": "Second description of painting 11"
+  },
+  {
+    "src": "image12.jpg",
+    "title": "Painting Title 12",
+    "material": "Medium 12",
+    "description": "Description of painting 12",
+    "secondDescription": "Second description of painting 12"
+  },
+  {
+    "src": "image13.jpg",
+    "title": "Painting Title 13",
+    "material": "Medium 13",
+    "description": "Description of painting 13",
+    "secondDescription": "Second description of painting 13"
+  },
+  {
+    "src": "image14.jpg",
+    "title": "Painting Title 14",
+    "material": "Medium 14",
+    "description": "Description of painting 14",
+    "secondDescription": "Second description of painting 14"
+  },
+  {
+    "src": "image15.jpg",
+    "title": "Painting Title 15",
+    "material": "Medium 15",
+    "description": "Description of painting 15",
+    "secondDescription": "Second description of painting 15"
+  },
+  {
+    "src": "image16.jpg",
+    "title": "Painting Title 16",
+    "material": "Medium 16",
+    "description": "Description of painting 16",
+    "secondDescription": "Second description of painting 16"
+  },
+  {
+    "src": "image17.jpg",
+    "title": "Painting Title 17",
+    "material": "Medium 17",
+    "description": "Description of painting 17",
+    "secondDescription": "Second description of painting 17"
+  },
+  {
+    "src": "image18.jpg",
+    "title": "Painting Title 18",
+    "material": "Medium 18",
+    "description": "Description of painting 18",
+    "secondDescription": "Second description of painting 18"
+  },
+  {
+    "src": "image19.jpg",
+    "title": "Painting Title 19",
+    "material": "Medium 19",
+    "description": "Description of painting 19",
+    "secondDescription": "Second description of painting 19"
+  },
+  {
+    "src": "image20.jpg",
+    "title": "Painting Title 20",
+    "material": "Medium 20",
+    "description": "Description of painting 20",
+    "secondDescription": "Second description of painting 20"
+  },
+  {
+    "src": "image21.jpg",
+    "title": "Painting Title 21",
+    "material": "Medium 21",
+    "description": "Description of painting 21",
+    "secondDescription": "Second description of painting 21"
+  },
+  {
+    "src": "image22.jpg",
+    "title": "Painting Title 22",
+    "material": "Medium 22",
+    "description": "Description of painting 22",
+    "secondDescription": "Second description of painting 22"
+  },
+  {
+    "src": "image23.jpg",
+    "title": "Painting Title 23",
+    "material": "Medium 23",
+    "description": "Description of painting 23",
+    "secondDescription": "Second description of painting 23"
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "src": "image7.jpg",
+    "title": "«Название картины7»",
+    "material": "Акварель7",
+    "description": "Описание картины 7",
+    "secondDescription": "Второе описание картины 7"
+  },
+  {
+    "src": "image8.jpg",
+    "title": "«Название картины8»",
+    "material": "Масло8",
+    "description": "Описание картины 8",
+    "secondDescription": "Второе описание картины 8"
+  },
+  {
+    "src": "image9.jpg",
+    "title": "«Название картины9»",
+    "material": "Чем написана9",
+    "description": "Описание картины 9",
+    "secondDescription": "Второе описание картины 9"
+  },
+  {
+    "src": "image10.jpg",
+    "title": "«Название картины10»",
+    "material": "Чем написана10",
+    "description": "Описание картины 10",
+    "secondDescription": "Второе описание картины 10"
+  },
+  {
+    "src": "image11.jpg",
+    "title": "«Название картины11»",
+    "material": "Чем написана11",
+    "description": "Описание картины 11",
+    "secondDescription": "Второе описание картины 11"
+  },
+  {
+    "src": "image12.jpg",
+    "title": "«Название картины12»",
+    "material": "Чем написана12",
+    "description": "Описание картины 12",
+    "secondDescription": "Второе описание картины 12"
+  },
+  {
+    "src": "image13.jpg",
+    "title": "«Название картины13»",
+    "material": "Чем написана13",
+    "description": "Описание картины 13",
+    "secondDescription": "Второе описание картины 13"
+  },
+  {
+    "src": "image14.jpg",
+    "title": "«Название картины14»",
+    "material": "Чем написана14",
+    "description": "Описание картины 14",
+    "secondDescription": "Второе описание картины 14"
+  },
+  {
+    "src": "image15.jpg",
+    "title": "«Название картины15»",
+    "material": "Чем написана",
+    "description": "Описание картины 15",
+    "secondDescription": "Второе описание картины"
+  },
+  {
+    "src": "image16.jpg",
+    "title": "«Название картины16»",
+    "material": "Чем написана",
+    "description": "Описание картины 16",
+    "secondDescription": "Второе описание картины"
+  },
+  {
+    "src": "image17.jpg",
+    "title": "«Название картины17»",
+    "material": "Чем написана",
+    "description": "Описание картины 17",
+    "secondDescription": "Второе описание картины"
+  },
+  {
+    "src": "image18.jpg",
+    "title": "«Название картины18»",
+    "material": "Чем написана",
+    "description": "Описание картины 18",
+    "secondDescription": "Второе описание картины"
+  },
+  {
+    "src": "image19.jpg",
+    "title": "«Название картины19»",
+    "material": "Чем написана",
+    "description": "Описание картины 19",
+    "secondDescription": "Второе описание картины"
+  },
+  {
+    "src": "image20.jpg",
+    "title": "«Название картины20»",
+    "material": "Чем написана",
+    "description": "Описание картины 20",
+    "secondDescription": "Второе описание картины"
+  },
+  {
+    "src": "image21.jpg",
+    "title": "«Название картины21»",
+    "material": "Чем написана",
+    "description": "Описание картины 21",
+    "secondDescription": "Второе описание картины"
+  },
+  {
+    "src": "image22.jpg",
+    "title": "«Название картины22»",
+    "material": "Чем написана",
+    "description": "Описание картины 22",
+    "secondDescription": "Второе описание картины"
+  },
+  {
+    "src": "image23.jpg",
+    "title": "«Название картины23»",
+    "material": "Чем написана",
+    "description": "Описание картины",
+    "secondDescription": "Второе описание картины"
+  }
+]
