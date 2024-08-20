@@ -431,7 +431,7 @@ body {
     color: #F5F5F5;
     text-align: right;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: -0.05em;
     display: block;
     background-color: transparent;
 }
@@ -570,7 +570,7 @@ body {
     opacity: 0.7;
     margin: 0;
     width: 325px;
-    letter-spacing: -3%;
+    letter-spacing: -0.03em;
 }
 
 .rectangle-material {
@@ -596,7 +596,7 @@ body {
     font-size: 30px;
     font-style: italic;
     line-height: 30px;
-    letter-spacing: -2%;
+    letter-spacing: -0.02em;
     color: #C74B4B;
     text-align: left;
     margin: 0;
@@ -636,7 +636,7 @@ body {
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
-    letter-spacing: -2%;
+    letter-spacing: -0.02em;
     color: #FFFFFF;
     position: absolute;
     top: 68px;
